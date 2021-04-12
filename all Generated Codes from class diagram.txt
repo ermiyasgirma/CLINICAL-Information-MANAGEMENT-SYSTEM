@@ -1,0 +1,133 @@
+-----------------------------
+1.DOCTOR
+-----------------------------
+import java.util.Vector;
+
+public class Doctor {
+
+  private string Name;
+
+  private char Sex;
+
+  private int ID;
+
+  private string Address;
+
+  private string username;
+
+  private string password;
+
+    public Vector  mymanager;
+    public Vector  mypatient;
+
+  public void giveAppointment() {
+  }
+--------------------------
+2.manager
+--------------------------
+
+import java.util.Vector;
+
+public class manager {
+
+  private string name;
+
+  private char sex;
+
+  private int id;
+
+  private string adress;
+
+  private string Usrename;
+
+  public string password;
+
+    public Vector  mypharmacist;
+    public Vector  myDoctor;
+    public Vector  myReceptionist;
+
+  public void controlworkerstatus() {
+  }
+
+  public void controlworkerAttendance() {
+  }
+
+}
+}
+
+}
+------------------------------
+3.PATIENT
+------------------------------
+import java.util.Vector;
+
+public class patient {
+
+  private string name;
+
+  private char sex;
+
+  private int id;
+
+  private string adress;
+
+    public Vector  myDoctor;
+    public Vector  myReceptionist;
+
+  public void takeAppointment() {
+  }
+
+}
+-------------------------
+4.PHARMACIST
+-------------------------
+import java.util.Vector;
+
+public class pharmacist {
+
+  private String Name;
+
+  private char sex;
+
+  private int ID;
+
+  private string Address;
+
+  private String Username;
+
+  private string Password;
+
+    public Vector  mymanager;
+
+  public void RegisterDrugInformation() {
+  }
+
+  public void checkDruginfo() {
+  }
+
+}
+-------------------------
+5.RECEPTIONIST
+-------------------------
+import java.util.Vector;
+
+public class Receptionist {
+
+  private string Name;
+
+  private char sex;
+
+  private int id;
+
+  private string Address;
+
+    public Vector  mypatient;
+    public Vector  mymanager;
+
+  public void patientREGISTRATION() {
+  }
+
+  public void FillMedicalRecords() {
+  }
+
+}
